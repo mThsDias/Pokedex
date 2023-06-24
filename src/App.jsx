@@ -1,9 +1,9 @@
 import PokemonList from './components/PokemonList'
-import NavBar from './components/NavBar'
+import bgFloresta from './img/bg-floresta.png'
 
 function App() {
   return (
-        <div>
+        <div className='bg-[url{bgFloresta}]'>
           <PokemonList />
         </div>
   )

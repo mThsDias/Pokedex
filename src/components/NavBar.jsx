@@ -6,7 +6,7 @@ import imgLogo from '../img/logo.png'
 
 const NavBar = ({pokemonFilter}) => {
   return (
-    <nav className='bg-slate-700 mb-10 pr-32 pl-10 flex items-center justify-between'>
+    <nav className='bg- mb-10 pr-32 pl-10 flex items-center justify-between'>
       <img className="w-auto h-20" src={imgLogo} alt="" />
        <Search pokemonFilter={pokemonFilter}/>
     </nav>
