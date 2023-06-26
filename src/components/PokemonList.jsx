@@ -43,20 +43,20 @@ const PokemonList = () => {
     
   return (    
     <div>
-        <NavBar  pokemonFilter={pokemonFilter}/>
-        <div className=' flex flex-wrap justify-center items-center  w-full max-w-full gap-10'>
-            {pokemonList.map((pokemon , id) => (
-                <PokemonCard 
-                    key={id}
-                    id={pokemon.data.id}
-                    image={pokemon.data.sprites.other.dream_world.front_default}
-                    name={pokemon.data.name}
-                    types={pokemon.data.types}
-                />
-            ))}
-        </div>
+        <NavBar  pokemonFilter={pokemonFilter} />
+            <div className='flex items-center justify-center flex-wrap'>
+                {pokemonList.map((pokemon , id) => (
+                    <PokemonCard
+                        key={id}
+                        id={pokemon.data.id}
+                        image={pokemon.data.sprites.other.dream_world.front_default}
+                        name={pokemon.data.name}
+                        types={pokemon.data.types}
+                    />
+                ))}
+            </div>
     </div>
-  )
+    )
 }
 
 export default PokemonList
