@@ -1,11 +1,11 @@
-import PokemonList from './components/PokemonList'
+import Router from "./routes/index";
 
 function App() {
-  return (
-        <div>
-          <PokemonList />
+    return (
+        <div className="bg-slate-600 h-screen">
+            <Router />
         </div>
-  )
+    );
 }
 
-export default App
+export default App;

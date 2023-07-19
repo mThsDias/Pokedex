@@ -6,7 +6,8 @@ export default {
   ],
   theme: {
     backgroundImage: {
-      'pokebola': "url('../img/pokebola.svg')"
+      'pokebola': "url('../img/pokebola.svg')",
+      'bgteste': "url('../img/bgteste.jpg')"
     }
   },
 }
